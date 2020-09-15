@@ -46,9 +46,8 @@ return sum
 end 
 
 def add_s(array)
-  if array[1]
+  array.each {|i| i << "s" } 
+  unless array[1]
     array[1] = array[1]
-  else 
-    array[i] = array[is]
   end
 end    
