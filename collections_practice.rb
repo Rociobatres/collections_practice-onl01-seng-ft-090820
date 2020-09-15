@@ -46,10 +46,10 @@ return sum
 end 
 
 def add_s(array)
-  case array 
-  
-  when array[1]
+  if array[1]
     array[1] = array[1]
   else 
     array.each { |i| i = #{i}"$" }
+  end
+  array 
 end    
