@@ -46,5 +46,5 @@ return sum
 end 
 
 def add_s(array)
-  array.each {|i| i << "s" } if [i] != "feet"   
+  array.each {|i| i << "s" if [i] != "feet" }  
 end    
