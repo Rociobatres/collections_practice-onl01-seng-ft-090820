@@ -49,6 +49,6 @@ def add_s(array)
   if array[1]
     array[1] = array[1]
   else 
-    array.each { |i| i = puts "#{i}s" }
+    array.each { |i| i = "#{i}s" }
   end
 end    
