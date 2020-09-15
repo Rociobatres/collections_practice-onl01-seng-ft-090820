@@ -50,5 +50,6 @@ def add_s(array)
   while array[1]
     array[1] = array[1]
   else 
-    array
-end   
+    array.each { |i| i = #{i}"$" }
+end
+array 
