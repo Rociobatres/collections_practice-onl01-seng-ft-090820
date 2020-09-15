@@ -47,7 +47,7 @@ end
 
 def add_s(array)
   case array 
-  while array[1]
+  when array[1]
     array[1] = array[1]
   else 
     array.each { |i| i = #{i}"$" }
