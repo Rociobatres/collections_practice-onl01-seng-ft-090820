@@ -49,6 +49,6 @@ def add_s(array)
   if array[1]
     array[1] = array[1]
   else 
-    array[i] = array[i"s"]
+    array[i] = array[is]
   end
 end    
