@@ -47,6 +47,7 @@ end
 
 def add_s(array)
   case array 
+  
   when array[1]
     array[1] = array[1]
   else 
